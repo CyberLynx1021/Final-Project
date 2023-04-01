@@ -1,46 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <section>
-        <div class="Top_nav"></div>
-      <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn"></label>
-        <i class="fas fa-bars"></i>
-        <label class="logo">Treact</label>
-          <ul>
-            <li><a  class="active" href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
-          </ul>
-          </body>
-        </nav>
-        <a class= "logo__img">
-          <img class=" Logo__T" src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="logo">
-         Treact
-         </a>
-             
-    <div class="header__container">
-        <div class ="header__description"></div>
-        <figure class="header__img--wrapper">
-          <img class="header__img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"></figure>
-        <h1>Beautiful React 
-          Templates<span class="purple">for you.</span></h1>
-          <h2>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components. </h2>
-          
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="Landing__Page">
+      <nav class="Land">
+        <div class="banner">
+          <a class="logo__img">
+            <img
+              class="Logo__T"
+              src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="logo"
+            />
+          </a>
+          <h2 class="Logo__header">Treact</h2>
         </div>
+        <ul>
+          <li><a class="active" href="#">About</a></li>
+          <li><a class="active" href="#">Blog</a></li>
+          <li><a class="active" href="#">Pricing</a></li>
+          <li><a class="active" href="#">Contact Us</a></li>
+          <li><a class="active Log__in" href="#">Login</a></li>
+          <li>
+            <button class="btn">
+              <a class="active sign__up" href="#">Sign Up</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
 
-</body>
+      <div class="header__container">
+        <div class="header__description">
+          <div class="body1">
+            <h1 class="header__template">
+              Beautiful React Templates<span class="purple"> for you.</span>
+            </h1>
+            <p class="header__section--para">
+              Our templates are easy to setup, understand and customize. Fully
+              modular components with a variety of pages and components.
+            </p>
+            <form action="">
+            <input class="Input"type="text" placeholder="Your Email Address">
+            <button class="">Get Started</button>
+            </form>
+            <img
+              class="Customer__img"
+              src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+              alt=""
+            />
+          </div>
+          <div class="Body2">
+            <figure class="header__img--wrapper">
+              <img
+                class="header__img"
+                src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
-
