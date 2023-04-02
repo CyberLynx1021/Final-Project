@@ -59,13 +59,7 @@ nav{
   align-items: center;
   width: 100%;
 }
-button{
-background-color: #6415ff;
-color: white;
-border-radius: 9999px;
-border: 9999px;
-padding: 12px 16px;
-}
+
 
 .sign__up{
 color: white;
@@ -107,6 +101,14 @@ h2{
   max-width: 1200px;
   margin: 0 auto;
 }
+.body1{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
 .Get{
   position: absolute;
   margin-top: 0.5rem;
@@ -115,9 +117,12 @@ h2{
   line-height: 1;
 }
 Input{
-  padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    padding-right: 12rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 999;
+    padding: 20px 192px 20px 32px;
+    padding-left: 2rem;
+    background-color: #fff;
 }
 
 .header__section--para{
@@ -147,14 +152,36 @@ font-size: 36px;
   color: #6415ff;
 }
 
-.body1{
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-}
+
 
 .body2{
   width: 60%;
+}
+/* 
+  E-MAIL
+*/
+button{
+  background-color: #6415ff;
+  color: white;
+  border-radius: 9999px;
+  border: 9999px;
+  padding: 12px 16px;
+  }
+
+.email__button{
+  height: 59px;
+  position:absolute;
+  margin: 1px 100px 65px -135px;
+  padding: 20px -1px;
+  width: 125px;
+  line-height: 1;
+  font-size: 16px;
+  -webkit-box-align: center;
+  border-radius: 9999px;
+}
+
+.customer__img{
+  margin-top: 1rem;
+  width: 100%;
+  opacity: 0.5;
 }
