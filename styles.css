@@ -116,14 +116,7 @@ h2{
   width: 10rem;
   line-height: 1;
 }
-Input{
-    font-weight: 500;
-    border-radius: 9999px;
-    border: 999;
-    padding: 20px 192px 20px 32px;
-    padding-left: 2rem;
-    background-color: #fff;
-}
+
 
 .header__section--para{
 color: #243e63;
@@ -178,10 +171,40 @@ button{
   font-size: 16px;
   -webkit-box-align: center;
   border-radius: 9999px;
+  /* right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-right: 0.5rem;
+    display: flex;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700px;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center; */
 }
-
+Input{
+  font-weight: 500;
+    border-radius: 9999px;
+    border: 999;
+    padding: 20px 192px 20px 32px;
+    padding-left: 2rem;
+    background-color: #fff;
+  /* padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 12rem;
+  width: 100%;
+  border-radius: 9999px;
+  border-width: 2px;
+  font-weight: 500px;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 300ms; */
+}
 .customer__img{
   margin-top: 1rem;
-  width: 100%;
   opacity: 0.5;
+  margin: 16px 0px 0px;
+  max-width: 100%;
+  height: auto;
 }
