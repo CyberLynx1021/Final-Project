@@ -272,8 +272,29 @@ PAGE 2
 }
 .header__3{
   font-weight: 700;
+  font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 700;
     --tw-text-opacity: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.service__tag{
+  font-size: 48px;
+  color: #243e63;
+text-align: center;
+margin: 16px;
+font-weight: 900
+}
+
+.sub__text{
+  color: #7C8bA1;
+  font-weight: 500px;
+  font-size: 18px;
+  margin: 16px 0px 0px;
+  text-align: center;
+  line-height: 1.625;
+  width: 100%;
 }
