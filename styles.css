@@ -95,7 +95,7 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 4px;
+  padding: 4px;
   margin: 0px 194px;
   width: 100%;
   max-width: 1200px;
@@ -131,8 +131,16 @@ line-height: 1.5;
 }
   
 .header__img{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  flex-direction: column;
+  display: flex;
   width: 512px;
-  height: 371px;
+  padding-top: 6rem;
+    padding-bottom: 6rem;
+  /* height: 368.4px; */
 }
 
 .header__template{
@@ -164,7 +172,7 @@ button{
 .email__button{
   height: 59px;
   position:absolute;
-  margin: 1px 100px 65px -135px;
+  margin: 0px -129px 3px ;
   padding: 20px -1px;
   width: 125px;
   line-height: 1;
@@ -185,13 +193,13 @@ button{
     justify-content: center; */
 }
 Input{
-  font-weight: 500;
+  /* font-weight: 500;
     border-radius: 9999px;
     border: 999;
     padding: 20px 192px 20px 32px;
     padding-left: 2rem;
-    background-color: #fff;
-  /* padding-top: 1.25rem;
+    background-color: #fff; */
+  padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-right: 12rem;
   width: 100%;
@@ -199,7 +207,7 @@ Input{
   border-width: 2px;
   font-weight: 500px;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-  transition-duration: 300ms; */
+  transition-duration: 300ms;
 }
 .customer__img{
   margin-top: 1rem;
@@ -207,4 +215,65 @@ Input{
   margin: 16px 0px 0px;
   max-width: 100%;
   height: auto;
+}
+
+.trusted{
+  font:bold;
+  margin: 80px auto;
+  font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: #a0aec0;
+}
+
+p{
+  /* display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+/*
+
+PAGE 2
+
+*/
+/* .body3{
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;} */
+
+.transform__lay {
+  transform: none;  
+}
+.side__img{
+  position: relative;
+}
+
+.side__img2{
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1024px;
+    flex-flow: column wrap;
+}
+.header__3{
+  font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    --tw-text-opacity: 1;
 }
