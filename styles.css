@@ -59,7 +59,12 @@ nav{
   align-items: center;
   width: 100%;
 }
-
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
 .sign__up{
 color: white;
@@ -126,21 +131,18 @@ max-width: 32rem;
 line-height: 1.5;
 }
 .header__img--wrapper{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
   
 .header__img{
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 1200px;
   flex-direction: column;
   display: flex;
   width: 512px;
-  padding-top: 6rem;
-    padding-bottom: 6rem;
-  /* height: 368.4px; */
+  margin: 110px;
+  width:100%;
 }
 
 .header__template{
@@ -170,7 +172,31 @@ button{
   }
 
 .email__button{
-  height: 59px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(247 250 252 / var(--tw-text-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 300ms;
+  font-size: 100;
+}
+  /* height: 59px;
   position:absolute;
   margin: 0px -129px 3px ;
   padding: 20px -1px;
@@ -178,36 +204,25 @@ button{
   line-height: 1;
   font-size: 16px;
   -webkit-box-align: center;
-  border-radius: 9999px;
-  /* right: 0px;
-    top: 0px;
-    bottom: 0px;
-    margin-right: 0.5rem;
-    display: flex;
-    border-radius: 9999px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 700px;
-    align-items: center;
-    -webkit-box-align: center;
-    justify-content: center; */
-}
+  border-radius: 9999px; */
+
 Input{
-  /* font-weight: 500;
-    border-radius: 9999px;
-    border: 999;
-    padding: 20px 192px 20px 32px;
-    padding-left: 2rem;
-    background-color: #fff; */
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-right: 12rem;
   width: 100%;
   border-radius: 9999px;
   border-width: 2px;
-  font-weight: 500px;
+  padding-left: 2rem;
+  font-weight: 500;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-duration: 300ms;
+  font-family: inherit;
+  margin: 0px;
+  --tw-text-opacity: 1;
+  text-size-adjust: 100%;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
 }
 .customer__img{
   margin-top: 1rem;
@@ -219,7 +234,7 @@ Input{
 
 .trusted{
   font:bold;
-  margin: 80px auto;
+  margin: 80px 0px 0px 0px;
   font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -369,18 +384,30 @@ margin: 8px 0px 0px 16px;
 Page 3
 */
 
+.header__img2{
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  height: auto;
+  max-width: 1200px;
+  flex-direction: column;
+  display: flex;
+  width: 512px;
+}
+
 .design__subtext{
   font-size: 16px;
   margin: 16px;
   color: #7C8ba1;
   font-weight: 500;
   line-height: 1.625;
+  text-align: left;
 }
 .design__text{
 font-size: 48px;
 margin: 16px 0px 0px;
 color: #243E63;
 font-weight: 900;
+text-align: left;
 }
 
 .learn__button{
