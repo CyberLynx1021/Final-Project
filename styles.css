@@ -318,7 +318,7 @@ font-weight: 900
   border: 1px solid rgb(226, 232, 240);
   max-height: 75px;
   max-width: 75px;
-  
+
 }
 /*
 
@@ -333,13 +333,16 @@ FEATURE
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: calc(100% / 3);
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
 }
 .feature__description{
  margin-top: 12px;
   font-size: 16px; 
  color: #7C8ba1;
  font-weight: 500;
- width: calc(100% / 3);
  line-height: 2;
  letter-spacing: 0.025em;
  flex-wrap: wrap;
