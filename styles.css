@@ -321,15 +321,32 @@ font-weight: 900
   /* display: flex; */
   /* flex-wrap: wrap; */
 }
+/*
 
-.description{
+FEATURE
+
+*/
+
+/* .text__container{
+
+} */
+.feature{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.feature__description{
  margin: 16px;
  font-size: 16px; 
  color: #7C8ba1;
- margin-top: 1rem;
  font-weight: 500;
- line-height: 2;
- --tw-text-opacity: 1;
+ width: calc(100% / 3);
+ flex-wrap: wrap;
+}
+
+.text__container{
+  display: flex;
+  flex-direction: column;
 }
 
 .span__title{
