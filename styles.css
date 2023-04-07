@@ -448,8 +448,11 @@ page
 }
 
 .steps__border{
-  flex-direction: row;
-  align-items: flex-start;
+  /* flex-direction: row;
+  align-items: flex-start; */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .register__1{
