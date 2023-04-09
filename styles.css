@@ -586,3 +586,43 @@ page
     --tw-text-opacity: 1;
     color: rgb(39 103 73 / var(--tw-text-opacity));
 }
+
+h5{
+  margin-left: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+}
+
+.symble__title{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.affor__OB{
+  margin-right: 2rem;
+  align-items: flex-start;
+  display: flex;
+   flex-direction: column; 
+   -webkit-box-align: center;
+  align-items: center; 
+  margin-top: 2.5rem;
+}
+.sym__par{
+  text-align: left;
+  margin-top: 1rem;
+    /* text-align: center; */
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgb(113 128 150 / var(--tw-text-opacity));
+    width:calc(100% / 2.2);
+}
+
+.affor__prof{
+  max-width: none;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+}
