@@ -604,7 +604,7 @@ h5{
   margin-right: 2rem;
   align-items: flex-start;
   display: flex;
-   flex-direction: column; 
+   flex-direction: row; 
    -webkit-box-align: center;
   align-items: center; 
   margin-top: 2.5rem;
@@ -625,4 +625,8 @@ h5{
   margin-left: 0px;
   margin-right: 0px;
   display: flex;
+}
+.both__AP{
+display: flex;
+flex-direction: row;
 }
