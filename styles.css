@@ -626,7 +626,8 @@ h5{
   margin-right: 0px;
   display: flex;
 }
-/* .both__AP{
+.both__AP{
 display: flex;
 flex-direction: row;
-} */
+}
+
