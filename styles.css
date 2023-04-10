@@ -628,6 +628,8 @@ h5{
 }
 .both__AP{
 display: flex;
-flex-direction: row;
+/* flex-direction: row; */
 }
+
+
 
