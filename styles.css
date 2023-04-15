@@ -986,7 +986,7 @@ Page 7
 }
 
 .pg7img__container{
-  width: 50%;
+  /* width: 50%; */
   position: relative;
     flex-shrink: 0;
     
@@ -1074,6 +1074,8 @@ Page 7
   }
 
   .customerimg__profile{
+    display: flex;
+    flex-direction: column;
     height: 5rem;
     width: 5rem;
     border-radius: 9999px;
