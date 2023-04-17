@@ -1105,6 +1105,7 @@ Page 7
 
 
 .button__section{
+  display: flex;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   border-radius: 9999px;
@@ -1120,17 +1121,56 @@ Page 7
   }
 
   .left_btn{
+    
     border-color: rgb(226, 232, 240);
     height: 1rem;
     width: 1rem;
     stroke-width: 3;
   }
   .btn__divider{
+    border-color: rgb(226, 232, 240);
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     border-right-width: 1px;
+    appearance: button;
   }
 
   .right_btn{
+    border-color: rgb(226, 232, 240);
+    stroke-width: 3;
+  }
+
+  /* 
+  
+  PAGE 8
+
+  */
+  .containerpg8{
+    padding-top: 6rem;
+      padding-bottom: 6rem;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1280px;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+  }
+
+  .faqs__container{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .faqs__header--container{
 
   }
+
+  .FAQS_title{
+    font-size: 16px;
+    margin: 16px 0px 0px;
+    color: #6415ff;
+    font-weight: 700;
+    text-align: center;
+  }
+  
