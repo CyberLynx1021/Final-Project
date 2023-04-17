@@ -1173,4 +1173,51 @@ Page 7
     font-weight: 700;
     text-align: center;
   }
+
+  .FAQS__subtext{
+    text-align: center;
+    font-size: 18px;
+    margin: 16px;
+    color:#7C8bA1 ; 
+    font-weight: 500;
+    width: 100%;
+    margin-top: 1.5rem;
+    max-width: 36rem;
+  }
+  
+.design__text8{
+    font-size: 48px;
+    margin: 16px 0px 0px;
+    color: #243E63;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .singlecln__FAQS--container{
+    position: relative;
+    margin-top: 3rem;
+    max-width: 56rem;
+  }
+
+  .singlecln--padding{
+    padding: 1rem 2.5rem;
+    margin-top: 1.25rem;
+  }
+
+  .singlecln__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-pack: center;
+  }
+
+  .singlecln__question-text{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #2d3748;
+  }
+
+  .singlecln__icon--padding{
+
+  }
   
