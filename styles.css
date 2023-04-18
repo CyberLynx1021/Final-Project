@@ -1202,13 +1202,21 @@ Page 7
   .singlecln--padding{
     padding: 1rem 2.5rem;
     margin-top: 1.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: rgb(45 55 72 / var(--tw-text-opacity));
+    border-color: rgb(226, 232, 240);
+
   }
 
   .singlecln__question {
     display: flex;
+    -webkit-box-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
     justify-content: space-between;
-    -webkit-box-pack: center;
+    --tw-text-opacity: 1;
+    color: rgb(45 55 72 / var(--tw-text-opacity));
   }
 
   .singlecln__question-text{
@@ -1218,6 +1226,17 @@ Page 7
   }
 
   .singlecln__icon--padding{
+    margin-left: 0.5rem;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 
+  .cln__answer{
+    font-size: 1rem;
+    opacity: 0;
+    height: 0px;
+    margin-top: 0px;
   }
   
