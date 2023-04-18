@@ -417,7 +417,7 @@ text-align: left;
   font-weight: 700;
   margin-left: 0px;
   outline-width: 2px;
-  width:141px;
+  /* width:141px; */
   --tw-bg-opacity: 1;
   background-color: rgb(80 17 204 / var(--tw-bg-opacity));
   --tw-shadow: 0 0 0 3px rgba(66,153,225,0.5);
@@ -1195,18 +1195,24 @@ Page 7
 
   .singlecln__FAQS--container{
     position: relative;
-    margin-top: 3rem;
+    margin-top: 3rem;   
     max-width: 56rem;
+    margin: 0 auto;
   }
 
   .singlecln--padding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 2.5rem;
     margin-top: 1.25rem;
     cursor: pointer;
     border-radius: 0.5rem;
     color: rgb(45 55 72 / var(--tw-text-opacity));
-    border-color: rgb(226, 232, 240);
-
+    background-color: rgb(226, 232, 240); 
+    display: flex;
+    justify-content: start;
+    text-align: left;
   }
 
   .singlecln__question {
@@ -1222,18 +1228,21 @@ Page 7
   .singlecln__question-text{
     font-weight: 600;
     font-size: 1.25rem;
-    color: #2d3748;
+    color: #2d3748;    
   }
 
   .singlecln__icon--padding{
+    align-items: end;
     margin-left: 0.5rem;
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
     height: 1.5rem;
     width: 1.5rem;
+    
   }
 
   .cln__answer{
+    
     font-size: 1rem;
     opacity: 0;
     height: 0px;
