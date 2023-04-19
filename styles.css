@@ -1213,6 +1213,7 @@ Page 7
     display: flex;
     justify-content: start;
     text-align: left;
+    justify-content: space-between;
   }
 
   .singlecln__question {
@@ -1241,8 +1242,7 @@ Page 7
     
   }
 
-  .cln__answer{
-    
+  .cln__answer{ 
     font-size: 1rem;
     opacity: 0;
     height: 0px;
