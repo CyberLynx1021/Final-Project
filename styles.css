@@ -1368,6 +1368,7 @@ Page 10
 }
 
 .main__border{
+  display: flex;
   width: auto;
   padding-left: 0px;
   padding-right: 0px;
