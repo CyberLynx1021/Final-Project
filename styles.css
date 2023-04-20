@@ -1293,20 +1293,38 @@ Page 7
   font-size: 30px;
 }
 
-.getstarted__contact{
-  margin-top: 0px;
+.getstarted__contact{    
+    margin-top: 0px;    
     -webkit-box-pack: end;
     justify-content: flex-end;
     flex-direction: row;
-}
+  }
 
 .Getstart__link{
-  border-radius: 9999px;
-  --tw-bg-opacity: 1;
+  
+    border-radius: 9999px;
     background-color: rgb(245 101 101 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(247 250 252 / var(--tw-text-opacity));
-    --tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -2px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    margin-right: 2rem;
+    margin: 0px 32;
+    font-size: 16px;
+    font-weight: 700;
+    width: auto;
+    padding: 20px 40px;
+}
+
+.ContactUs__link{
+  --tw-border-opacity: 1;
+    border-color: rgb(160 174 192 / var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    border-radius: 9999px;
+    margin-right: 2rem;
+    margin: 0px 32;
+    font-size: 16px;
+    font-weight: 700;
+    width: auto;
+    border-style: solid;
+    padding: 20px 40px;
 }
