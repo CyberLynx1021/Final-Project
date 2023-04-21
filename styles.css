@@ -41,6 +41,7 @@
 
 a{
   text-decoration: none;
+  color: white;
 }
 nav{
   display: flex;
@@ -1364,11 +1365,12 @@ Page 10
   margin-top: -3rem;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 3.8rem;
+  margin-left: 1.2rem;
+  width:97%;
 }
 
 .main__border{
-  display: flex;
+  /* display: flex; */
   width: auto;
   padding-left: 0px;
   padding-right: 0px;
@@ -1395,4 +1397,94 @@ Page 10
   padding-bottom: 0.45rem;
   color: #f7fafc;
   font-size: 14px;
+  margin: 7px;
+}
+
+.lastpgdivider{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    border-bottom-width: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgb(116 44 255 / var(--tw-border-opacity));
+    border-color: rgb(226, 232, 240);
+    border-style: solid;
+}
+
+.lastnav__container{
+  flex-direction: row;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.lastsymble__text__container{
+display: flex;
+align-items: center;
+margin-left: 1rem;
+}
+
+.last__treact{
+  width: 2rem;
+}
+
+.Treact__Inc{
+  margin-left: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+}
+
+.copyright{
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  /* font-size: 0.875rem; */
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(203 213 224 / var(--tw-text-opacity));
+}
+
+.final__svg--container{
+display: flex;
+margin-top: 0px;
+}
+
+.facebook{
+  height: 1rem;
+    width: 1rem;
+  margin-left: 74rem;
+  cursor: pointer;
+    border-radius: 9999px; 
+    border-color: rgb(226, 232, 240);
+    background-color: rgb(247 250 252 / var(--tw-bg-opacity)); 
+    margin-right: 1rem;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: white;
+    /* background-color: rgb(247 250 252 / var(--tw-bg-opacity)); */
+    /* padding: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(26 32 44 / var(--tw-text-opacity));      */
+}
+
+.twitter{
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(247 250 252 / var(--tw-bg-opacity));
+    padding: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(26 32 44 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    height: 1rem;
+    width: 1rem;
 }
