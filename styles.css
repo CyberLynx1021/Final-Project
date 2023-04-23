@@ -97,6 +97,18 @@ h2{
   width: 100%;
 }
 
+.button__nav{
+  --tw-text-opacity: 1;
+   color: rgb(100 21 255 / var(--tw-text-opacity));
+   z-index: 20;
+   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+   transition-duration: 300ms;
+   cursor: pointer;
+   appearance: button;
+   background-color: transparent;
+   background-image: none;
+   display: ;
+}
 
 .body1{
   width: 50%;
@@ -1399,4 +1411,34 @@ margin-top: 0;
   padding: 0.5rem;
   background-color: rgb(247 250 252 / var(--tw-bg-opacity));
   color: #1a202c;
+}
+
+@media (max-width: 768px) {
+  .header__description {
+   padding: 0 24px;
+}
+.header__template{
+  font-size: 30px;
+}
+
+}
+
+
+.features__list{
+
+  display: flex;
+  max-width: 1024px;
+  flex-flow: column wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+@media (max-width: 1024px) {
+ul{display: none;
+
+}
+
 }
