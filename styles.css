@@ -136,16 +136,19 @@ font-size: 1.125rem;
 }
 .header__img--wrapper{
   height: 100%;
-  width:50%;
-  max-width: 699px;
+  width:100%;
+  /* max-width: 699px; */
 }
   
 .header__img{
-  height: 100%;
-  max-width: 1200px;
+  margin-left: 1.5rem;
+  min-width: 0px;
+  max-width: 46rem;
+  /* height: 100%;
+  max-width: 1200px; */
   display: flex;
   width: 100%;
-  width: 699px;
+  /* width: 699px; */
 }
 
 .qualitywork{
@@ -182,7 +185,21 @@ button{
   }
 
 .email__button{
-  position: absolute;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 10rem;
+    line-height: 1;
+    border-radius: 9999px;
+    margin-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    appearance: button;
+    padding-right: 2rem;
+  /* position: absolute;
+  width:100%;
     margin-top: 0.3rem;
     margin-bottom: 0.7rem;
     margin-right:24rem ;
@@ -192,14 +209,14 @@ button{
     left: 372px;
     padding:16px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px; */
 }
 
 Input{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-right: 12rem;
-  width: 100%;
+  max-width: 395px;
   border-radius: 9999px;
   border-width: 2px;
   padding-left: 2rem;
@@ -1417,28 +1434,64 @@ margin-top: 0;
   .header__description {
    padding: 0 24px;
 }
-.header__template{
+/* .header__template{
   font-size: 30px;
-}
+} */
 
-}
+
 
 
 .features__list{
-
-  display: flex;
-  max-width: 1024px;
-  flex-flow: column wrap;
-  -webkit-box-align: center;
-  align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+  padding: 2rem 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
+.feature__description{
+  width: 260px;
+  font-size:16px;
+}
+}
 
 @media (max-width: 1024px) {
-ul{display: none;
+ul{
+  display: none;
+}
+.header__description{
+  display: flex;
+  flex-direction: column;
+}
+.header__template{
+  font-size: 1.875rem;
+  width: calc(100% / 0.75);
+}  
 
+p.trusted{
+  margin-top: 40px;
+}
+.trusted{
+ text-align:center;
+ font-size: 14px;
+}
+.features__list{
+  
+}
+.header__section--para {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    width: calc(100% / 0.6);
+    text-align: center;
 }
 
+.email__button{
+  
+}
+Input{
+  margin-left: 2rem;
+
+}
 }
