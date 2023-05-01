@@ -629,7 +629,7 @@ display: flex;
 
 .drawing__img{
   width: 100%;
-  max-width: 599px;
+  /* max-width: 599px; */
   height: auto;
   border-radius: 0.25rem;
   display: flex;
@@ -1348,6 +1348,7 @@ Page 7
     font-weight: 700;
     width: auto;
     padding: 20px 40px;
+    width:100%;
 }
 
 .ContactUs__link{
@@ -1525,6 +1526,12 @@ margin-top: 0;
       width:388px;
   } */
   /* page 2*/
+  .side__img2{
+    width:50%;
+  }
+  .text__container{
+    align-items: center;
+  }
   .feature{
     margin-top: 2rem;
     display: flex;
@@ -1539,6 +1546,25 @@ text-align: center;
   .text__container{
     margin-bottom: 10px;
   }
+  /*2nd last pge*/
+  .Get__started-row{
+    align-items: center;
+    text-align: center;
+  }
+  .getstarted__contact{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+      /* width:100%; */
+      text-align: center;
+    }
+    .Getstart__link{
+      margin-bottom: 1rem;
+    /* width:100%; */
+    }
+.Developer__text{
+  font-size: 24px;
+}
 }
 @media (max-width: 768px){
   /* nav*/
@@ -1645,6 +1671,7 @@ text-align: center;
 /* Page 4*/
 .body5{
 align-items: center;
+width:100%;
 }
 .header__description4{
   display: flex;
@@ -1671,6 +1698,64 @@ text-align: center;
 /* width: 100%; */
 }
 .design__text{
+  text-align: center;
+}
+/*page 5*/
+.left__side{
+  align-items: center;
+  text-align: center;
+  width:100%;
+}
+
+.container__section{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .money__title{
+  align-items: center;
+  text-align: center;
+}
+.money__symbol{
+  text-align: center;
+  align-items: center;
+} */
+.Value__title{
+  padding-top: 4rem;
+  font-size: 16px;
+}
+.design__text1{
+  font-size: 36px;
+  text-align: center;
+  width:100%;
+  margin:16px;
+}
+.drawing__img{
+  max-width:100%;
+}
+.two__benefits--container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.twobenefits{
+  text-align: center;
+  align-items: center;
+}
+
+.sym__par{
+  align-items: center;
+  text-align: center;
+  width:100%;
+}
+/* Page 6*/
+.right__side7{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width:100%;
+}
+.pg7--para{
   text-align: center;
 }
 
@@ -1799,7 +1884,6 @@ p.trusted{
       width:100%        
     }
   
-
 .header__img{
   padding-top : 2rem;
   }
@@ -1820,5 +1904,15 @@ p.trusted{
    width: 50%;
    max-width: 24rem;
  }
-
+/* 2nd last page*/
+.Get__started-row{
+display: flex;
+align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+.Get__started-cln_container{
+  padding-bottom: 2rem;
+  width:100%;
+}
 }
